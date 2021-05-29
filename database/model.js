@@ -9,7 +9,7 @@ let BlockChainSchema = new Schema({
     },
     transactions: {
         required: true,
-        type: Schema.Types.Array,
+        type: Schema.Types.String,
     },
     previousHash: {
         required: true,
